@@ -4,20 +4,31 @@
   <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no" />
-      <title>Photo album - Home</title>
 
+      <title>YOUR TITLE GOES HERE</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.min.css" />
       <link rel="stylesheet" href="public/videojs/video-js.min.css" />
       <link rel="stylesheet" href="public/core.css" />
       <link rel="stylesheet" href="public/theme.css" />
-
   </head>
-
   <body>
-
     <div id="container">
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">YOUR TITLE GOES HERE</a></h1>
+      </header>
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="../index.html">Home</a>
+      </nav>
 
-    </div>
+
+<!-- list of photos and albums is here -->
+
 
     <!-- jQuery -->
     <script src="public/jquery.min.js"></script>
